@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  main{
+    width: 75%;
+    margin: auto;
+  }
+  
+  .looking-container {
+    padding: 80px 150px;
+    margin-bottom: 290px;
+  }
+
+  .titleWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .titleWrapper button {
+    width: 160px;
+    height: 46px;
+    background-color: #6e38f7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .formWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  
+  }
+  
+  .item1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .item2 {
+    flex: 1;
+  }
+  
+  select {
+    height: 46px;
+    width: 100%;
+  }
+  
+  input {
+    width: 47%;
+    height: 46px;
+    outline: none;
+    padding: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+  }
+  
+  p {
+    color: #95a1bb;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  option{
+      display: inline-block;
+      height: 30px;
+  }
+  
+  
+  /* section-touch */
+
+
+
+.touch-container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 120px;
+
+}
+
+.img-cont{
+    width: 40%;
+    background-color: #6e38f7;    
+}
+
+.title-cont{
+    width: 60%;
+    padding: 90px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.input{
+    background-color: #fff;
+    width: 100%;
+    height: 60%;
+    /* display: flex; */
+    
+}
+
+.title-cont h1{
+  font-size: 50px;
+}
+
+.title-cont p{
+  font-size: 22px;
+}
+
+.inp1{
+  height: 15%;
+  width:100%;
+}
+
+.inp2{
+  height: 15%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inp2-1{
+  width: 45%;
+  height: 100%; ;
+}
+
+.inp2-2{
+  width: 45%;
+  height: 100%;
+}
+
+.inp3{
+  width: 100%;
+  height: 36%;
+  margin-top: 20px;
+}
+
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-cont button{
+    width: 160px;
+    height: 46px;
+    background-color: #6e38f7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.title-cont input{
+  width: 100%;
+  height: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* section3 */
+
+
+.subscribe{
+  width: 100%;
+  height: 100vh;
+}
+
+.subscribe .tittle-content{
+  width: 100%;
+  display: flex;
+}
+
+
+.subscribe .title{
+  width: 60%;
+  padding: 130px 70px 0px 190px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.subscribe .content{
+  width: 40%;
+}
+.title h1{
+  margin: 30px 0px 30px 0px;
+}
+
+.title i{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.title button{
+  display: block;
+  /* width: 23%; */
+  height: 8%;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  text-align: center;
+
+ 
+}
+
+.title input{
+  width: 100%;
+}
+
+
+
+/* section4 */
+
+
+
+.demo{
+  width: 100%;
+  height: 100vh;
+}
+
+.demo .tittle-content{
+  width: 100%;
+  display: flex;
+}
+
+
+.demo .title{
+  width: 60%;
+  padding: 130px 70px 0px 190px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.demo .content{
+  width: 40%;
+}
+.title h1{
+  margin: 30px 0px 30px 0px;
+}
+
+.title i{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.demo .title button{
+  display: block;
+  height: 12%;
+  padding: 0px 269px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  text-align: center;
+
+ 
+}
+
+.demo .title input{
+  width: 100%;
+}
+
+.demo input{
+  margin: 20px 0px;
+}
+
+
+video{
+  width: 100%;
+  height: 100%;
+}
